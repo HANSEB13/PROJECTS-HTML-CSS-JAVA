@@ -2,7 +2,7 @@
 
 ---
 
-### ```````````````````````````gci * -include *nombre(s) del archivo(s)*** |mv -destination ..\nombre de la carpeta\`
+### gci * -include *nombre(s) del archivo(s)*** |mv -destination ..\nombre de la carpeta\`
 
 ### Buscar los elementos que hay en una carpeta, filtrarlos por nombres, mover elementos otra carpeta.
 
@@ -14,7 +14,7 @@
 
 ### Se usa para crear carpetas, para agregar mas basta con colocar una coma y volver abrir comillas.
 
-### `gci * -path . |cp -destination '..\MONTAJE CONTENIDOS\' -recurse`
+ `gci * -path . |cp -destination '..\MONTAJE CONTENIDOS\' -recurse`
 
 ### Para mover los recursos de una carpeta a otra sin copiar la raiz.
 
